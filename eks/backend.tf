@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "aws-jenkins1"
+    bucket         = "aws-jenkins"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "devops"
